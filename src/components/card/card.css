@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 12px;
+}
+
+.card-wrapper {
+    height: 100vh;
+    background: linear-gradient(to bottom,hsl(273, 75%, 66%),hsl(240, 73%, 65%));
+    overflow: hidden;
+}
+
+.card {
+    margin: 10vh auto;
+    width:65%;
+    height: 80%;
+    background: white;
+    overflow: hidden;
+}
+
+.left-side {
+    position: relative;
+    height: 944px;
+    width: 964px;
+    right: 70%;
+    bottom: 60%;
+    background-image: url('../../images/bg-pattern-desktop.svg');
+    text-align: right;
+}
+
+.right-side {
+    position:relative;
+    width: 50%;
+    height: 100%;
+    bottom: 946px;
+    left: 50%;
+}
+
+.woman {
+    position: relative;
+    top: 360px;
+}
+
+.FAQ {
+    display: block;
+    font-size: 50px;
+    margin: 30px 0;
+}
+
+.questions {
+    margin-right: 25%;
+    margin-bottom: 10px;
+    height: 80%;
+    overflow-y: scroll;
+}
+
+

@@ -1,0 +1,32 @@
+.question {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.question + .answer {
+    display: none;
+}
+
+.visible + .answer {
+    display: block;
+    margin-bottom: 20px;
+}
+
+.visible > .arrow-container > .arrow {
+    transform: rotate(180deg);
+}
+
+.visible > .question-content {
+    font-weight: bold;
+}
+.question-container {
+    border-bottom: 1px solid hsl(240, 5%, 91%);
+    margin-bottom: 20px;
+    color: hsl(238, 29%, 16%);
+}
+
+.question-content:hover {
+    cursor: pointer;
+    color: hsl(14, 88%, 65%);
+}
